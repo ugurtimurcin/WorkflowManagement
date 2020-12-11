@@ -1,0 +1,50 @@
+﻿@model AssignEmployeeListDTO
+<div class="row px-1">
+    <div class="col-md-12">
+        <div class="alert alert-info text-center">
+            Aşağıdaki göreve ilgili personel atanacaktır. Bu işlemi gerçekleştirmek istediğinizden emin misiniz?
+            <form asp-action="AssignEmployee" method="post">
+                <div class="form-group">
+                    <a asp-controller="JobOrder" asp-action="AssignEmployee" asp-route-id="@Model.Job.Id" class="btn btn-warning btn-sm">Vazgeç</a>
+                    <input type="hidden" name="EmployeeId" value="@Model.AppUser.Id"/>
+                    <input type="hidden" name="JobId" value="@Model.Job.Id" />
+                    <button type="submit" class="btn btn-primary btn-sm">Ata</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header"><h4 class="text-center lead">Görev Bilgileri</h4></div>
+            <div class="card-body py-5">
+                <h5 class="card-title">@Model.Job.Title</h5>
+                <p class="card-text">@Model.Job.Description</p>
+                <p class="card-text">
+                    <strong>Aciliyet Durumu: </strong><span class="badge badge-info">@Model.Job.Urgency.Title</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-8">
+        <div class="card mb-3">
+            <div class="card-header"><h4 class="text-center lead">Personel Bilgileri</h4></div>
+            <div class="row no-gutters">
+                <div class="col-md-3">
+                    <img src="~/img/@Model.AppUser.Picture" class="card-img" style="height:175px; width:auto;" alt="...">
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body">
+                        <h5 class="card-title">@Model.AppUser.FirstName @Model.AppUser.LastName</h5>
+                        <p class="card-text">
+                            <getJobByAppUserId app-user-id="@Model.AppUser.Id"></getJobByAppUserId>
+                        </p>
+                        <p class="card-text"><small class="text-muted">@Model.AppUser.Email</small></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

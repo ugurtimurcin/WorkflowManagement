@@ -1,0 +1,304 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Business\\WorkflowManagement.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Business\\WorkflowManagement.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Business\\WorkflowManagement.Business.csproj",
+        "projectName": "WorkflowManagement.Business",
+        "projectPath": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Business\\WorkflowManagement.Business.csproj",
+        "packagesPath": "C:\\Users\\Oxir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Oxir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.DataAccess\\WorkflowManagement.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.DataAccess\\WorkflowManagement.DataAccess.csproj"
+              },
+              "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.DTO\\WorkflowManagement.DTO.csproj": {
+                "projectPath": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.DTO\\WorkflowManagement.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.DataAccess\\WorkflowManagement.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.DataAccess\\WorkflowManagement.DataAccess.csproj",
+        "projectName": "WorkflowManagement.DataAccess",
+        "projectPath": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.DataAccess\\WorkflowManagement.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Oxir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Oxir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Entities\\WorkflowManagement.Entities.csproj": {
+                "projectPath": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Entities\\WorkflowManagement.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "microsoft.entityframeworkcore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "microsoft.entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "microsoft.entityframeworkcore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.DTO\\WorkflowManagement.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.DTO\\WorkflowManagement.DTO.csproj",
+        "projectName": "WorkflowManagement.DTO",
+        "projectPath": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.DTO\\WorkflowManagement.DTO.csproj",
+        "packagesPath": "C:\\Users\\Oxir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Oxir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Entities\\WorkflowManagement.Entities.csproj": {
+                "projectPath": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Entities\\WorkflowManagement.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Entities\\WorkflowManagement.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Entities\\WorkflowManagement.Entities.csproj",
+        "projectName": "WorkflowManagement.Entities",
+        "projectPath": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Entities\\WorkflowManagement.Entities.csproj",
+        "packagesPath": "C:\\Users\\Oxir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oxir\\Desktop\\WorkflowManagement\\WorkflowManagement.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Oxir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

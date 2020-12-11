@@ -1,0 +1,39 @@
+﻿@model List<UrgencyListDTO>
+
+
+<div class="container-fluid pl-0 mt-3">
+    <h4 class="display-4 text-center">Aciliyet Listesi</h4>
+    @if (Model.Count > 0)
+    {
+        <a asp-action="AddUrgency" class="btn btn-info">Yeni Aciliyet Ekle</a>
+        <table class="table w-50 table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Aciliyet</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var urgency in Model)
+                {
+                    <tr>
+                        <td>@urgency.Title</td>
+                        <td>
+                            <a asp-controller="Urgency" asp-action="EditUrgency" asp-route-id="@urgency.Id" class="btn btn-sm btn-warning">Düzenle</a>
+                            <a asp-controller="Urgency" asp-action="DeleteUrgency" asp-route-id="@urgency.Id" class="btn btn-sm btn-danger">Sil</a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="container mx-auto mt-5 text-center">
+            <p class="lead">Sistemde kayıtlı aciliyet durumu bulunamadı</p>
+            <a asp-action="AddUrgency" class="btn btn-info">Yeni Aciliyet Ekle</a>
+        </div>
+    }
+</div>

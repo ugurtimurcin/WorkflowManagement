@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Oxir\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Oxir\\.nuget\\packages"
+    ]
+  }
+}

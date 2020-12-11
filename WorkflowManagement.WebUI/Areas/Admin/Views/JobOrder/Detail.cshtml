@@ -1,0 +1,30 @@
+﻿@model JobListAllDTO
+
+<h4 class="display-4 text-center my-2">Detay</h4>
+
+@if (Model.Reports.Count > 0)
+{
+    <a class="btn btn-info">Excel</a>
+    <table class="table table-hover table-sm">
+        <tr>
+            <th colspan="2">@Model.AppUser.FirstName @Model.AppUser.LastName Personelinin @Model.Title Görevine Yazmış Olduğu Raporlar</th>
+        </tr>
+        <tr>
+            <th>Tanım</th>
+            <th>Detay</th>
+        </tr>
+        @foreach (var report in Model.Reports)
+        {
+            <tr>
+                <td>@report.Title</td>
+                <td>@report.Description</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <div class="border border-dark text-center">
+        @Model.AppUser.FirstName @Model.AppUser.LastName isimli personel @Model.Title görevi ile ilgili henüz bir rapor yazmadı. 
+    </div>
+}

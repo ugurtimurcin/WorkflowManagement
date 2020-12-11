@@ -1,0 +1,77 @@
+﻿
+<div class="container my-3">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-white bg-warning mb-3" style="max-width: 20rem;">
+                <div class="card-header">Bitirilmeyen Görevler</div>
+                <div class="card-body">
+                    @if (ViewBag.UnCompletedJobCount > 0)
+                    {
+                        <h6 class="card-title">Toplam <strong>@ViewBag.UnreadNotificationCount</strong> adet bitirilmemiş göreviniz bulunmaktadır.</h6>
+                        <a asp-controller="JobOrder" asp-action="Index" class="btn btn-info btn-sm float-right">Görüntüle</a>
+                    }
+                    else
+                    {
+                        <h6 class="card-title">Bitirilmeyen göreviniz bulunmamaktadır.</h6>
+                    }
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+                <div class="card-header">Bitirilen Görevler</div>
+                <div class="card-body">
+                    @if (ViewBag.CompletedJobCount > 0)
+                    {
+                        <h6 class="card-title">Şu ana kadar toplam <strong>@ViewBag.CompletedJobCount</strong> adet görev bitirdiniz.</h6>
+                        <a asp-controller="Job" asp-action="Index" class="btn btn-info btn-sm float-right">Görüntüle</a>
+                    }
+                    else
+                    {
+                        <h6 class="card-title">Henüz bitirmiş olduğunuz görev bulunmamaktadır.</h6>
+                    }
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+                <div class="card-header">Bildirimler</div>
+                <div class="card-body">
+                    @if (ViewBag.UnreadNotificationCount > 0)
+                    {
+                        <h6 class="card-title">Toplam <strong>@ViewBag.UnreadNotificationCount</strong> adet okunmamış bildiriminiz bulunmaktadır.</h6>
+                        <a asp-controller="Notification" asp-action="Index" class="btn btn-info btn-sm float-right">Görüntüle</a>
+                    }
+                    else
+                    {
+                        <h6 class="card-title">Yeni bildiriminiz bulunmamaktadır.</h6>
+                    }
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+
+            <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Raporlar</div>
+                <div class="card-body">
+                    @if (ViewBag.ReportCount > 0)
+                    {
+                        <h6 class="card-title">Toplam <strong>@ViewBag.ReportCount</strong> adet raporunuz bulunmaktadır.</h6>
+                    }
+                    else
+                    {
+                        <h6 class="card-title">Henüz yazılan raporunuz bulunmamaktadır.</h6>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Entities\bin\Debug\netcoreapp3.1\WorkflowManagement.Entities.deps.json
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Entities\bin\Debug\netcoreapp3.1\WorkflowManagement.Entities.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Entities\bin\Debug\netcoreapp3.1\WorkflowManagement.Entities.pdb
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Entities\obj\Debug\netcoreapp3.1\WorkflowManagement.Entities.AssemblyInfoInputs.cache
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Entities\obj\Debug\netcoreapp3.1\WorkflowManagement.Entities.AssemblyInfo.cs
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Entities\obj\Debug\netcoreapp3.1\WorkflowManagement.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Entities\obj\Debug\netcoreapp3.1\WorkflowManagement.Entities.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Entities\obj\Debug\netcoreapp3.1\WorkflowManagement.Entities.pdb

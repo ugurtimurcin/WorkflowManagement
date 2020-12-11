@@ -1,0 +1,15 @@
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\bin\Debug\netcoreapp3.1\WorkflowManagement.Entities.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\obj\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.csprojAssemblyReference.cache
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\obj\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\obj\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.AssemblyInfo.cs
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\bin\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.deps.json
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\bin\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.runtimeconfig.json
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\bin\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.runtimeconfig.dev.json
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\bin\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\bin\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.pdb
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\bin\Debug\netcoreapp3.1\WorkflowManagement.Entities.pdb
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\obj\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\obj\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.csproj.CopyComplete
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\obj\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\obj\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.pdb
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DataAccess\obj\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.genruntimeconfig.cache

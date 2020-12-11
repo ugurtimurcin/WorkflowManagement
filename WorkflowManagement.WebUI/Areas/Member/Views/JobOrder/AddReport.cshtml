@@ -1,0 +1,51 @@
+﻿@model ReportAddDTO
+
+
+<div class="row">
+    <div class="col-md-6">
+        <h4 class="display-4 text-center">Rapor Yaz</h4>
+        <form class="m-2 p-3" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="JobId" />
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label" asp-for="Title">Tanım</label>
+                <div class="col-sm-9">
+                    <input class="form-control" asp-for="Title" />
+                    <span class="text-danger" asp-validation-for="Title"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label" asp-for="Description">Açıklama</label>
+                <div class="col-sm-9">
+                    <textarea class="form-control" asp-for="Description"></textarea>
+                    <span class="text-danger" asp-validation-for="Description"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="offset-sm-3 col-sm-9">
+                    <button type="submit" class="btn btn-primary btn-sm">Kaydet</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <h4 class="display-4 text-center">Görev</h4>
+        <div class="card t m-2 w-50 mx-auto">
+            <h5 class="card-header">@Model.Job.Title</h5>
+            <div class="card-body">
+                <h5 class="card-title">@Model.Job.Description</h5>
+                <p class="card-text">
+                    Aciliyet Durumu:  <span class="badge badge-info">@Model.Job.Urgency.Title</span>
+                </p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/lib/jquery-validate/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

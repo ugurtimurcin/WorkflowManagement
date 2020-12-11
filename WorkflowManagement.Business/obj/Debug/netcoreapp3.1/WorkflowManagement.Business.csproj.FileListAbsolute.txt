@@ -1,0 +1,17 @@
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\bin\Debug\netcoreapp3.1\WorkflowManagement.Business.deps.json
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\bin\Debug\netcoreapp3.1\WorkflowManagement.Business.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\bin\Debug\netcoreapp3.1\WorkflowManagement.Business.pdb
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\bin\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\bin\Debug\netcoreapp3.1\WorkflowManagement.Entities.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\bin\Debug\netcoreapp3.1\WorkflowManagement.DataAccess.pdb
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\bin\Debug\netcoreapp3.1\WorkflowManagement.Entities.pdb
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\obj\Debug\netcoreapp3.1\WorkflowManagement.Business.csprojAssemblyReference.cache
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\obj\Debug\netcoreapp3.1\WorkflowManagement.Business.AssemblyInfoInputs.cache
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\obj\Debug\netcoreapp3.1\WorkflowManagement.Business.AssemblyInfo.cs
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\obj\Debug\netcoreapp3.1\WorkflowManagement.Business.csproj.CoreCompileInputs.cache
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\obj\Debug\netcoreapp3.1\WorkflowManagement.Business.csproj.CopyComplete
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\obj\Debug\netcoreapp3.1\WorkflowManagement.Business.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\obj\Debug\netcoreapp3.1\WorkflowManagement.Business.pdb
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\bin\Debug\netcoreapp3.1\WorkflowManagement.DTO.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\bin\Debug\netcoreapp3.1\WorkflowManagement.DTO.pdb
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.Business\bin\Debug\netcoreapp3.1\NLog.config

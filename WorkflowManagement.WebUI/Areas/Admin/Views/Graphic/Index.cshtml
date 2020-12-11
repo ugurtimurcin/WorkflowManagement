@@ -1,0 +1,82 @@
+﻿
+<div class="row">
+    <div class="col-md-6">
+        <div id="mostJobComplete" style="height: 500px;"></div>
+    </div>
+    <div class="col-md-6">
+        <div id="mostWorking" style="height: 500px;"></div>
+    </div>
+</div>
+
+
+@section Scripts{
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+       
+        google.charts.load("current", { packages: ["corechart"] });
+        google.charts.setOnLoadCallback(drawChart3);
+        function drawChart3() {
+            let mostJobComplete = [['Personel Adı', 'Görev Sayısı']];
+
+            $.ajax({
+                type: 'Get',
+                url: './Graphic/MostComplete',
+                async: false,
+                success: function (data) {
+                    let obj = jQuery.parseJSON(data);
+                    $.each(obj, (index, value) => {
+                        mostJobComplete.push([value.Name, value.JobCount]);
+                    });
+                }
+            })
+
+            var data = google.visualization.arrayToDataTable(mostJobComplete);
+
+            var options = {
+                title: 'En Çok İş Tamamlayan 5 Personel',
+                is3D: true,
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('mostJobComplete'));
+            chart.draw(data, options);
+        }
+
+
+
+
+
+
+        google.charts.load("current", { packages: ["corechart"] });
+        google.charts.setOnLoadCallback(drawChart2);
+        function drawChart2() {
+
+
+            let mostWorking = [['Personel Adı', 'Görev Sayısı']];
+
+            $.ajax({
+                type: 'Get',
+                url: './Graphic/MostWorking',
+                async: false,
+                success: function (data) {
+                    let obj2 = jQuery.parseJSON(data);
+                    $.each(obj2, (index, value) => {
+                        mostWorking.push([value.Name, value.JobCount]);
+                    });
+                }
+            })
+
+            var data = google.visualization.arrayToDataTable(mostWorking);
+
+            var options = {
+                title: 'En Çok Çalışan Personeller',
+                is3D: true,
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('mostWorking'));
+            chart.draw(data, options);
+        }
+    </script>
+
+
+}

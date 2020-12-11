@@ -1,0 +1,12 @@
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DTO\bin\Debug\netcoreapp3.1\WorkflowManagement.DTO.deps.json
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DTO\bin\Debug\netcoreapp3.1\WorkflowManagement.DTO.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DTO\bin\Debug\netcoreapp3.1\WorkflowManagement.DTO.pdb
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DTO\obj\Debug\netcoreapp3.1\WorkflowManagement.DTO.csprojAssemblyReference.cache
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DTO\obj\Debug\netcoreapp3.1\WorkflowManagement.DTO.AssemblyInfoInputs.cache
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DTO\obj\Debug\netcoreapp3.1\WorkflowManagement.DTO.AssemblyInfo.cs
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DTO\obj\Debug\netcoreapp3.1\WorkflowManagement.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DTO\obj\Debug\netcoreapp3.1\WorkflowManagement.DTO.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DTO\obj\Debug\netcoreapp3.1\WorkflowManagement.DTO.pdb
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DTO\bin\Debug\netcoreapp3.1\WorkflowManagement.Entities.dll
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DTO\bin\Debug\netcoreapp3.1\WorkflowManagement.Entities.pdb
+C:\Users\Oxir\Desktop\WorkflowManagement\WorkflowManagement.DTO\obj\Debug\netcoreapp3.1\WorkflowManagement.DTO.csproj.CopyComplete

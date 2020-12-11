@@ -1,0 +1,32 @@
+﻿@model AppUserListDTO
+
+@{
+    var active = string.Empty;
+    if (TempData["Active"] != null)
+    {
+        active = TempData["Active"].ToString();
+    }
+}
+
+
+
+<div class="border-right" id="sidebar-wrapper">
+    <div class="sidebar-heading">
+        <img src="~/img/@Model.Picture" class="img-thumbnail mx-auto" style="width:6rem; height:6rem;" />
+    </div>
+    <div class="list-group list-group-flush">
+        <a asp-controller="Home" asp-action="Index" class="list-group-item list-group-item-action @(active =="home" ? "active":"")"><i class="fas fa-home mr-2"></i>Anasayfa</a>
+        <a asp-controller="JobOrder" asp-action="Index" class="list-group-item list-group-item-action @(active =="jobOrder" ? "active":"")"><i class="fas fa-arrow-alt-circle-down mr-2"></i>Gelen İşler</a>
+        <a asp-controller="Job" asp-action="Index" class="list-group-item list-group-item-action @(active =="job" ? "active":"")"><i class="fas fa-arrow-alt-circle-up mr-2"></i>Tamamlanan İşler</a>
+        <a asp-controller="Notification" asp-action="Index" class="list-group-item list-group-item-action position-relative @(active =="notification" ? "active":"")">
+            <i class="fas fa-bell mr-2"></i>
+            @if (ViewBag.NotificationsCount > 0)
+            {
+                <sub class="badge badge-info badge-pill position-absolute" style="bottom: 0.625rem!important; left:1.7rem!important;"><small>@ViewBag.NotificationsCount</small></sub>
+            }
+            Bildirimler
+        </a>
+        <a asp-controller="Profile" asp-action="Index" class="list-group-item list-group-item-action @(active == "myProfile" ? "active":"")"><i class="fas fa-user-alt mr-2"></i>Profilim</a>
+        <a asp-area="" asp-controller="Home" asp-action="Logout" class="list-group-item list-group-item-action "><i class="fas fa-sign-out-alt mr-2"></i>Çıkış</a>
+    </div>
+</div>

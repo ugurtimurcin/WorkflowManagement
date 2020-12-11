@@ -1,0 +1,28 @@
+﻿@model UrgencyEditDTO
+
+<div class="container">
+    <h4 class="display-4 text-center my-3">Aciliyet Düzenle</h4>
+    <form class="w-50" asp-action="EditUrgency" method="post">
+        <input type="hidden" asp-for="Id" />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group row">
+            <label class="col-form-label col-sm-3" asp-for="Title">Başlık</label>
+            <div class="col-sm-9">
+                <input asp-for="Title" class="form-control" value="@Model.Title"/>
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-9 offset-sm-3">
+                <a asp-controller="Urgency" asp-action="Index" class="btn btn-warning">Vazgeç</a>
+                <button type="submit" class="btn btn-info">Düzenle</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts{
+    <script src="~/lib/jquery-validate/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

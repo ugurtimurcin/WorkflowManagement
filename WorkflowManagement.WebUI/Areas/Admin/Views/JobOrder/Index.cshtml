@@ -1,0 +1,53 @@
+﻿@model List<JobListAllDTO>
+<h4 class="display-4 text-center my-4">İş Emri Listesi</h4>
+@if (Model.Count > 0)
+{
+    <table class="table table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Görev</th>
+                <th>Açıklama</th>
+                <th>Oluşturulma Tarihi</th>
+                <th>Personel</th>
+                <th>Aciliyet</th>
+                <th>Rapor Sayısı</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.Description</td>
+                    <td>@item.Time.ToString("D", new System.Globalization.CultureInfo("tr-TR"))</td>
+                    <td>
+                        @Html.Raw(item.AppUser == null ?
+                        "<span class='badge badge-danger'>Çalışan personel yok</span>" :
+                        $"<span class='badge badge-success'>{item.AppUser.FirstName} {item.AppUser.LastName}</span>")
+                    </td>
+                    <td>@item.Urgency.Title</td>
+                    <td>@item.Reports.Count</td>
+                    <td>
+                        @if (item.AppUser == null)
+                        {
+                            <a asp-controller="JobOrder" asp-action="AssignEmployee" asp-route-id="@item.Id" class="btn btn-outline-primary">Personel Ata</a>
+                        }
+                        else
+                        {
+                            <a asp-controller="JobOrder" asp-action="Detail" asp-route-id="@item.Id" class="btn btn-outline-primary">Detay</a>
+                        }
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="text-center lead">
+        Herhangi bir görev bulunmamaktadır.
+    </div>
+}
